@@ -1,0 +1,6 @@
+$kind: collection
+name: Restaurant API
+description: API collection for the Restaurant Menu API
+variables:
+  - key: base_url
+    value: 'http://localhost:3000'

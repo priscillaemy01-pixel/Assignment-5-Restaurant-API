@@ -1,0 +1,16 @@
+$kind: http-request
+name: Add Menu Item
+method: POST
+url: '{{base_url}}/api/menu'
+order: 3000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Caesar Salad",
+      "category": "Salad",
+      "price": 10.99
+    }

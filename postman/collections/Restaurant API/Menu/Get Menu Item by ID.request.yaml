@@ -1,0 +1,8 @@
+$kind: http-request
+name: Get Menu Item by ID
+method: GET
+url: '{{base_url}}/api/menu/:id'
+order: 2000
+pathVariables:
+  - key: id
+    value: '1'
